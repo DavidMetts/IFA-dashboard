@@ -1,0 +1,4 @@
+streamlit==1.52.1
+numpy==2.2.6
+matplotlib==3.10.8
+scikit-rf==1.8.0
