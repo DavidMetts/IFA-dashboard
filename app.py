@@ -7,8 +7,8 @@ import streamlit as st
 from antenna import DEFAULTS, geometry, model
 from exporter import export_script
 
-st.set_page_config(page_title='IFA Antenna Lab', page_icon='📡', layout='wide')
-st.title('IFA Antenna Lab')
+st.set_page_config(page_title='IF Antenna Lab by David Metts', page_icon='📡', layout='wide')
+st.title('IF Antenna Lab by David Metts')
 st.caption('2.4 GHz · Printed inverted-F · FR4')
 st.info('Explore an educational lumped-circuit approximation. These curves are not full-wave simulation results; export the geometry for a separate openEMS study.')
 
