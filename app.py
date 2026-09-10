@@ -70,7 +70,7 @@ with layout:
     ax.set(xlim=(-1,41),ylim=(-31,13),xlabel='x (mm)',ylabel='y (mm)',aspect='equal')
     fig.tight_layout(); st.pyplot(fig); plt.close(fig)
     st.caption('Copper is teal; the orange gap is the lumped feed port. No bottom-layer ground.')
-    st.download_button('Download openEMS Python script',export_script(p),file_name='ifa_openems.py',mime='text/x-python',type='primary')
+    st.download_button('Download openEMS Python script',export_script(p),file_name='ifa_openems.py',mime='text/x-python',type='primary',on_click='ignore')
     st.caption('Generates a standalone file with numeric geometry and a UTC timestamp. Downloading does not run openEMS.')
 with explain:
     st.subheader('What each control changes')
