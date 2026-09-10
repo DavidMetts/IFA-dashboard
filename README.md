@@ -1,5 +1,9 @@
 # IFA Antenna Lab
 
+[![Deploy to Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=DavidMetts/IFA-dashboard&branch=main&mainModule=app.py)
+
+Source repository: `DavidMetts/IFA-dashboard` (keep private). The deployment button opens Community Cloud setup for `main/app.py`; set the deployed app's viewer access to public separately.
+
 Streamlit-only educational 2.4 GHz printed inverted-F dashboard. Five constrained geometry sliders drive one shared parameter dictionary, the scikit-rf lumped model, geometry preview and standalone openEMS exporter. No solver is run by the app.
 
 ## Run locally
