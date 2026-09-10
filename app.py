@@ -9,6 +9,7 @@ from exporter import export_script
 
 st.set_page_config(page_title='IF Antenna Lab by David Metts', page_icon='📡', layout='wide')
 st.title('IF Antenna Lab by David Metts')
+st.caption('September 9, 2026')
 st.caption('2.4 GHz · Printed inverted-F · FR4')
 st.info('Explore an educational lumped-circuit approximation. These curves are not full-wave simulation results; export the geometry for a separate openEMS study.')
 
